@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body 
+    * {box-sizing: border-box;}
+    
+    input[type2=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 6px;
+      resize: vertical;
+    }
+    
+    input[type2=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type2=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container-1 {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-top: 250px;
+    }
+    </style>
+    <title>My Tree</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <div class="head1">
+      <h1 class="f1">Welcome to My Tree</h1>
+      <img src="../img/t5.png" style="width: 10%; height: 20%; margin-left: 350px; margin-top: -70px;">  
+  </div>
+  <div class="topnav">
+      <a class="active" href="home.html">Home</a>
+      <a href="question.html">Q & A</a>
+      <div class="search-container">
+        <form action="#">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit">Search<i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Product type 
+            <i class="fa fa-caret-down"></i>
+          </button>
+      <div class="dropdown-content">
+          <a href="t1.html">ไม้น้ำ</a>
+          <a href="t2.html">ไม้พุ่ม</a>
+          <a href="t3.html">ไม้ประดับ</a>
+          <a href="t4.html">ไม้เลึ้อย</a>
+      </div>
+  </div>
+</header>
+  <body>
+    <div class="container-1">
+      <h1 style="line-height: 2;">Q&A</h1>
+        <textarea id="subject" name="subject" placeholder="Write Your Question.." style="height:200px"></textarea>
+    
+        <input type2="submit" value="Submit">
+      </form>
+    </div>
+    
+    </body>
+    </html>
